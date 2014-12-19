@@ -92,16 +92,12 @@ public class GCDTest {
         for (int i = 1; i < 1000000; i++) {
             a = Math.abs(random.nextInt());
             b = Math.abs(random.nextInt());
-            long bigger = a;
-            if (b > a) {
-                bigger = b;
-            }
             long gcd = GCD.computeGcd(a, b);
             if (Math.log(a + b) / Math.log(2) < GCD.count) {
 
                 System.out.println("GCD(" + String.valueOf(a) + "," + String.valueOf(b) + ") = "
                         + String.valueOf(gcd) + ", count: " + String.valueOf(GCD.count)
-                        + ", log_2(bigger): " + String.valueOf(Math.log(a + b) / Math.log(2)));
+                        + ", log_2(a+b): " + String.valueOf(Math.log(a + b) / Math.log(2)));
 
             }
         }
