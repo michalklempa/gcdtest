@@ -1,7 +1,7 @@
 gcdtest
 =======
 see the function itself:
-https://github.com/mkl-eea-sk/gcdtest
+https://github.com/mkl-eea-sk/gcdtest/blob/master/src/main/java/com/gcd/GCD.java
 
 and junit test cases
 https://github.com/mkl-eea-sk/gcdtest/blob/master/src/test/java/com/gcd/GCDTest.java
